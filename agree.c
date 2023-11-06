@@ -3,13 +3,13 @@
 int main(void)
 {
     char y = get_char("Do your want to proceed: ");
-    if (y == 'y'){
-        printf("Lets proceed boss");
+    if (y == 'y' || y=='Y'){
+        printf("Lets proceed boss\n");
     }
-    else if( y == 'n'){
-        printf("Leaving the site");
+    else if( y == 'n' || y=='N'){
+        printf("Leaving the site\n");
     }
     else{
-        printf("Respond with a 'y' for yes or an 'n ' for the no");
+        printf("Respond with a 'y' for yes or an 'n ' for the no\n");
     }
 }
