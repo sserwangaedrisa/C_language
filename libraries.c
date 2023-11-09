@@ -11,4 +11,16 @@
      // Getting the length of the name
      int s = strlen(name);
      printf("The length of your name is %d\n", s);
+
+     // Manual counting of the length of the string
+     int stringlength = 0;
+      while (name[stringlength] != '\0')
+      {
+          stringlength++;
+      }
+      
+     printf("The name length is %d\n", stringlength);
+     printf("\n");
+
+
  }
