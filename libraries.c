@@ -22,5 +22,14 @@
      printf("The name length is %d\n", stringlength);
      printf("\n");
 
+     // Making the input uppercase
+     // using the ctype library
+
+     string secondname = get_string("What is your second name");
+     for (int i = 0; i < strlen(secondname); i++) {
+         printf("%c", toupper(secondname[i]));
+     }
+     printf("\n");
+
 
  }
