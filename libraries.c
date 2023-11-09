@@ -25,11 +25,16 @@
      // Making the input uppercase
      // using the ctype library
 
-     string secondname = get_string("What is your second name");
+     string secondname = get_string("What is your second name: ");
      for (int i = 0; i < strlen(secondname); i++) {
          printf("%c", toupper(secondname[i]));
      }
      printf("\n");
+     // manual changing of the cases of the inputs 
+
+     for (int i = 0; i < strlen(secondname); i++) {
+         printf("%c", secondname[i] - 32);
+     }
 
 
  }
