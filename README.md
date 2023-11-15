@@ -11,7 +11,9 @@ In cs50, we followed the list of sections bellow;
 PROGRAM FLOW;
 
 1. Introduction to scratch
-2. Programming languages (c)
+2. Programming languages (c).{
+   functions, variables, loops , memory, condition statements. The above are the topics we look at in the c programing language lectures  
+   }
 3. Python
 4. Databases
 5. Markup languages (HTML)
