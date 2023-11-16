@@ -16,4 +16,10 @@ int main(void)
         printf("This is the for loop\n");
     }
     printf("That was a for loop");
+
+    // Do while loops 
+    do {
+//code
+    } while (/* condition */)
+    
 }
