@@ -30,7 +30,7 @@
          printf("%c", toupper(secondname[i]));
      }
      printf("\n");
-     // manual changing of the cases of the inputs 
+     // manual changing of the cases of the inputs.
 
      for (int i = 0; i < strlen(secondname); i++) {
          printf("%c", secondname[i] - 32);
