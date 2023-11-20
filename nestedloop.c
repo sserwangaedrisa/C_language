@@ -20,8 +20,12 @@ int get_size(void) {
 void print_grid(int p) {
     for (int i = 0; i < p; i++) {
         for (int j = 0; j < p; j++) {
+
             printf("#");
         }
+
         printf("\n");
     }
+    printf(
+        "The above is the result\n");
 }
