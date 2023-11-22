@@ -27,5 +27,5 @@ void print_grid(int p) {
         printf("\n");
     }
     printf(
-        "The above is the results\n");
+        "Above are the results \n");
 }
