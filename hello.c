@@ -10,6 +10,5 @@ int main(void)
 
     string second = get_string("What is your second name:");
     string middle = get_string("What is your middle name: ");
-    printf("This is your middle name ")
-    printf("hello, %s\n", second);
+    printf("hello, %s is your second name and %s is your middle name.\n", second, middle);
 }
