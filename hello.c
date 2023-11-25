@@ -9,5 +9,7 @@ int main(void)
     printf("C is the core language that can make us learn other programing languages easily");
 
     string second = get_string("What is your second name:");
-    printf("hello, %s\n",second);
+    string middle = get_string("What is your middle name: ");
+    printf("This is your middle name ")
+    printf("hello, %s\n", second);
 }
