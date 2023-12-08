@@ -33,7 +33,7 @@ void print_bulb(int bit)
     }
     else if (bit == 1)
     {
-        // Light emoji
+      
         printf("\U0001F7E1");
     }
 }
