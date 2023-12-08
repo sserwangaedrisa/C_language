@@ -10,7 +10,7 @@ int compute_score(string word);
 
 int main(void)
 {
-    // Get input words from both players
+    // Getting input words from both players
     string word1 = get_string("Player 1: ");
     string word2 = get_string("Player 2: ");
 
