@@ -35,7 +35,6 @@ int main(void)
 
 int compute_score(string word)
 {
-    // TODO: Compute and return score for string
     string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     int letter_points[strlen(word)];
     for (int i = 0; i < strlen(word); i++)
