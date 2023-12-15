@@ -181,7 +181,7 @@ bool print_winner(void)
     return false;
 }
 
-// Return the minimum number of votes any remaining candidate has
+// Return the minimum number of votes any remaining candidate has.
 int find_min(void)
 {
     // TODO
@@ -196,7 +196,7 @@ int find_min(void)
     return min_votes;
 }
 
-// Return true if the election is tied between all candidates, false otherwise
+// Return true if the election is tied between all candidates, false otherwise.
 bool is_tie(int min)
 {
     // TODO
@@ -210,7 +210,7 @@ bool is_tie(int min)
     return true;
 }
 
-// Eliminate the candidate (or candidates) in last place
+// Eliminate the candidate (or candidates) in last place.
 void eliminate(int min)
 {
     // TODO
