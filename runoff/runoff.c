@@ -138,4 +138,21 @@ bool vote(int voter, int rank, string name)
     }
     return false;
 }
+// Tabulate votes for non-eliminated candidates
+void tabulate(void)
+{
+    // TODO
+    for (int i =0; i < voter_count; i++)
+    {
+        for (int j = 1; j <= candidate_count; j++)
+        {
+            if ( preperences[i][0] = j;)
+            {
+                candidates[j-1].votes = candidates[j-1].votes + 1;
+            }
+        }
+    }
+    return;
+}
+
 
