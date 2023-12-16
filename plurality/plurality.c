@@ -10,3 +10,12 @@ typedef struct
     string name;
     int votes;
 } candidate;
+// Array of candidates
+candidate candidates[MAX];
+
+// Number of candidates
+int candidate_count;
+
+// Function prototypes
+bool vote(string name);
+void print_winner(void);
