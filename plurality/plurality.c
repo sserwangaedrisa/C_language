@@ -10,10 +10,10 @@ typedef struct
     string name;
     int votes;
 } candidate;
-// Array of candidates
+// Initiating the Array of candidates
 candidate candidates[MAX];
 
-// Number of candidates
+// Initiating the Number of candidates
 int candidate_count;
 
 // Function prototypes
@@ -53,7 +53,7 @@ int main(int argc, string argv[])
         }
     }
 
-    // Display winner of election
+    // Display winner of election.
     print_winner();
 }
 // Update vote totals given a new vote
