@@ -35,3 +35,11 @@ int main(int argc, string argv[])
         return 2;
     }
     for (int i = 0; i < candidate_count; i++)
+        {
+        candidates[i].name = argv[i + 1];
+        candidates[i].votes = 0;
+    }
+
+    int voter_count = get_int("Number of voters: ");
+    // Loop over all voters
+    for (int i = 0; i < voter_count; i++)
