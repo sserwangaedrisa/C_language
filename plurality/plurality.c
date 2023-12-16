@@ -71,3 +71,25 @@ bool vote(string name)
     }
     return false;
 }
+// Print the winner (or winners) of the election
+void print_winner(void)
+{
+    // TODO
+
+    // string winners[candidate_count];
+    int Highest_votes = 0;
+    for (int i = 0; i < candidate_count; i++)
+    {
+        if (candidates[i].votes > Highest_votes)
+        {
+            Highest_votes = candidates[i].votes;
+        }
+    }
+    for (int j = 0; j < candidate_count; j++)
+    {
+        if (candidates[j].votes == Highest_votes)
+        {
+            printf("%s\n", candidates[j].name);
+        }
+    }
+}
