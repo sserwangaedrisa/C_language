@@ -41,7 +41,7 @@ int main(int argc, string argv[])
     }
 
     int voter_count = get_int("Number of voters: ");
-    // Loop over all voters
+    // Loop over all voters to count the votes.
     for (int i = 0; i < voter_count; i++)
          {
         string name = get_string("Vote: ");
