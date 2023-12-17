@@ -27,7 +27,7 @@ int main(int argc, string argv[])
         printf("Usage: plurality [candidate ...]\n");
         return 1;
     }
-    // Populate array of candidates.
+    // Filling in the candidates in the array.
     candidate_count = argc - 1;
     if (candidate_count > MAX)
     {
