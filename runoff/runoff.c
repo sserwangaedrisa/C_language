@@ -181,7 +181,7 @@ bool print_winner(void)
     return false;
 }
 
-// Return the minimum number of votes any remaining candidate has.
+// Returning the minimum number of votes any remaining candidate has.
 int find_min(void)
 {
     // TODO
