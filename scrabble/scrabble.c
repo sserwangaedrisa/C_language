@@ -32,7 +32,7 @@ int main(void)
         printf("Tie!\n");
     }
 }
-
+//Computing the score.
 int compute_score(string word)
 {
     string letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
