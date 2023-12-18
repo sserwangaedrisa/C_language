@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main(void)
 {
+    //Getting the character from the user.
     char y = get_char("Do your want to proceed: ");
     if (y == 'y' || y=='Y'){
         printf("Lets proceed boss\n");
