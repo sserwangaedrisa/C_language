@@ -6,7 +6,7 @@ int main(void){
     int number = get_int(" Enter the number: ");
     for (int i = 0; i < 4; i++) {
         if (array[i] == number) {
-            printf("The number is in the array\n");
+            printf("The number is present in the array\n");
             return 0;
         }
 
