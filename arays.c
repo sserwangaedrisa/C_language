@@ -18,10 +18,11 @@ int main(void) {
 float average(int array[]) {
     int sum = 0;
     for (int i = 0; i < n; i++) {
+        
         sum += array[i];
 
     }
     // The above  loop returns the added sum of all the members of the array.
-    // Then the sum is now divided by the number of items in the array.
+    // Then the sum is now divided by the number of items in the array to get the average.
     return sum / (float)n;
 }
