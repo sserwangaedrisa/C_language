@@ -21,7 +21,7 @@ float average(int array[]) {
         sum += array[i];
 
     }
-    // The above  loop returns the added sum of all the members of the array
-    // Then the sum is now divided by the number of items in the array
+    // The above  loop returns the added sum of all the members of the array.
+    // Then the sum is now divided by the number of items in the array.
     return sum / (float)n;
 }
