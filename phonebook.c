@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <cs50.h>
 int main(void){
     FILE*file =fopen("phonebook.csv", "a");
     sting name = get_string("Name: ");
