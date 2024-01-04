@@ -208,7 +208,7 @@ bool is_tie(int min)
     return true;
 }
 
-// Eliminate the candidate (or candidates) in last place
+// Eliminate the candidate (or candidates) in last place.
 void eliminate(int min)
 {
     for (int i = 0; i < candidate_count; i++)
