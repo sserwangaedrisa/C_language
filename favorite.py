@@ -1,4 +1,5 @@
 import csv
+from collections import Counter
 
 with open("favorites.csv", "r") as file:
     # currentRow = csv.reader(file)
@@ -30,15 +31,27 @@ with open("favorites.csv", "r") as file:
 
     # SIMPLIFYING THE CODE WITH THE USE OF ONE DICT TO TRACK MORE THINGS 
 
-    currentRow = csv.DictReader(file)
-    count = {}
+    # currentRow = csv.DictReader(file)
+    # count = {}
     
+    # for row in currentRow:
+    #     favorite = row['language']
+    #     if favorite in count:
+    #         count[favorite] += 1
+    #     else:
+    #         count[favorite] = 1
+
+    # for favorite in count:
+    #     print(f"{favorite}: {count[favorite]}")
+
+    # USING COUNTER FUNCTION
+    currentRow = csv.DictReader(file)
+    counts = Counter()
     for row in currentRow:
         favorite = row['language']
-        if favorite in count:
-            count[favorite] += 1
-        else:
-            count[favorite] = 1
+        counts[favorite] += 1
 
-    for favorite in count:
-        print(f"{favorite}: {count[favorite]}")
+for item in counts:
+    print(f"{item}: {counts[item]}")
+
+print (counts)
