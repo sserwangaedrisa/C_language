@@ -49,6 +49,7 @@ void change_to_binary(int letter, int binary_form[8])
         {
             binary_form[i] = 1;
             letter = 0;
+            // hello
         }
         else if (letter > 1)
         {
