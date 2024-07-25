@@ -7,5 +7,5 @@ db = SQL("sqlite:///favorites.db")
 row = db.execute("select count(*) as count from favorites where problem =?", favorite)
 row = row[0]
 
-# print(f('Your favorite problem has: ', {row} 'votes'))
+# Printing the output 
 print(row["count"])
