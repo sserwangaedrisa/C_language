@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-  background-color: gray;
+  background-color: linear-gradient(to-right, to right, #ff7e5f, #feb47b);
   font-size: larger;
 }
 
@@ -82,4 +82,9 @@ nav {
 
 .extra-places h5 {
   color: rgb(176, 220, 74);
+}
+
+#footer {
+  background-color: gray;
+  padding-left: 5%;
 }
