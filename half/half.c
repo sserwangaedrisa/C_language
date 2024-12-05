@@ -4,6 +4,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+
+// The below info:
+
 // Please note that in C language, you have to define the type of the variable as you are initializing it.
 float half(float bill, float tax, int tip);
 
