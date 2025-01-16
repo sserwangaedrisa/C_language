@@ -6,7 +6,7 @@
 
 
 // The below info:
-
+// Unlike in other new languages like python and javascript.
 // Please note that in C language, you have to define the type of the variable as you are initializing it.
 float half(float bill, float tax, int tip);
 
