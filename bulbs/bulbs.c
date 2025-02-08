@@ -9,7 +9,7 @@ void change_to_binary(int letter, int binary_form[8]);
 
 int main(void)
 {
-    // TODO
+    // TODO: Implement the code to work.
     string message = get_string("What is the message: ");
     int binary_form[8];
     for (int i = 0; i < strlen(message); i++)
